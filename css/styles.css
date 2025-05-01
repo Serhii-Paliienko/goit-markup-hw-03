@@ -1,0 +1,173 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  background-color: #ffffff;
+  color: #434455;
+}
+
+.logo {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+}
+
+.studio {
+  color: #2e2f42;
+}
+
+.nav {
+  text-decoration: none;
+  font-weight: 500;
+  color: #2e2f42;
+  letter-spacing: 0.02em;
+}
+
+.nav:hover {
+  color: #404bbf;
+}
+
+.nav:focus {
+  color: #404bbf;
+  text-decoration: underline;
+}
+
+address {
+  text-decoration: none;
+  font-style: normal;
+}
+
+address a {
+  color: #434455;
+  letter-spacing: 0.02em;
+}
+
+address a:hover {
+  color: #404bbf;
+}
+
+address a:focus {
+  color: #404bbf;
+}
+
+.solutions {
+  color: #ffffff;
+  background-color: #2e2f42;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: center;
+}
+
+.title {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+.button {
+  color: #ffffff;
+  background-color: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #404bbf;
+}
+
+.button:focus {
+  background-color: #404bbf;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+}
+
+.feautures {
+  opacity: 0;
+}
+
+.feautures-title {
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.feautures-text {
+  letter-spacing: 0.02em;
+}
+
+.team {
+  background-color: #f4f4fd;
+  text-align: center;
+}
+
+.people {
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.team-list {
+  background-color: #ffffff;
+}
+
+.team-name {
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.team-position {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+}
+
+.portfolio {
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.product {
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.product-field {
+  letter-spacing: 0.02em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+footer {
+  background-color: #2e2f42;
+  color: #f4f4fd;
+}
+
+footer .studio {
+  color: #f4f4fd;
+}
+
+.final-text {
+  letter-spacing: 0.02em;
+}
