@@ -101,12 +101,12 @@ nav {
 address {
   text-decoration: none;
   font-style: normal;
-  padding: 24px 0;
 }
 
 .contacts-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 
 address a {
@@ -183,10 +183,6 @@ h2 {
 
 .magic {
   padding: 120px 0;
-}
-
-.magic .container {
-  display: flex;
 }
 
 .magic .container ul {
@@ -270,7 +266,7 @@ h2 {
   letter-spacing: 0.02em;
 }
 
-.projects .container {
+.projects .projects {
   padding-top: 120px;
   padding-bottom: 120px;
 }
