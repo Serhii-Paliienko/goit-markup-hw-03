@@ -50,7 +50,7 @@ ol {
 
 .page-header .container {
   display: flex;
-  padding-top: 24px 15px 24px 15px;
+  padding: 0 15px;
   flex-wrap: nowrap;
 }
 
