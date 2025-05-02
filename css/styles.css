@@ -198,14 +198,14 @@ h2 {
 }
 
 .visually-hidden {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
   position: absolute;
   width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
 }
 
 .feautures {
@@ -282,6 +282,7 @@ h2 {
 
 .projects .container ul li {
   width: calc((100% - 48px) / 3);
+  row-gap: 48px;
 }
 
 .portfolio {
@@ -335,6 +336,11 @@ footer .studio {
 
 .final-text {
   letter-spacing: 0.02em;
-  width: 264px;
+  max-width: 264px;
   height: 72px;
+}
+
+.footer .container .logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
