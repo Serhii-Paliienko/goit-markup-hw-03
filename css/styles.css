@@ -72,7 +72,6 @@ ol {
 nav {
   display: flex;
   align-items: center;
-  padding: 24px 0;
 }
 
 .site-nav {
@@ -87,6 +86,7 @@ nav {
   font-weight: 500;
   color: #2e2f42;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .nav:hover {
@@ -266,7 +266,7 @@ h2 {
   letter-spacing: 0.02em;
 }
 
-.projects .projects {
+.projects {
   padding-top: 120px;
   padding-bottom: 120px;
 }
