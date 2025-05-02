@@ -32,6 +32,7 @@ header .container {
   padding-top: 24px;
   padding-bottom: 24px;
   flex-wrap: nowrap;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .logo {
@@ -174,7 +175,11 @@ h2 {
 .team {
   background-color: #f4f4fd;
   text-align: center;
-  padding-bottom: 120px;
+}
+
+.team .container {
+  border: 1px solid black;
+  height: 732px;
 }
 
 .team .container ul {
@@ -234,10 +239,16 @@ h2 {
   margin-bottom: 72px;
 }
 
+.portfolio-border {
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .product {
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-top: 32px;
+  padding-top: 32px;
   margin-bottom: 8px;
   padding-left: 16px;
 }
