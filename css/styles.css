@@ -274,6 +274,9 @@ h2 {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
+}
+
+.portfolio-list-main {
   row-gap: 48px;
 }
 
@@ -293,6 +296,7 @@ h2 {
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
   border-bottom: 1px solid #e7e9fc;
+  padding: 32px 16px;
 }
 
 .product {
