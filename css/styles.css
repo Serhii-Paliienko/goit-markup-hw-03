@@ -149,10 +149,18 @@ h2 {
   text-align: center;
 }
 
+.magic .container {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .magic .container ul {
   display: flex;
   gap: 24px;
-  margin: 120px 0px;
+}
+
+.magic .container ul li {
+  width: calc((100% - 72px) / 4);
 }
 
 .magic .container ul h3 {
@@ -178,14 +186,14 @@ h2 {
 }
 
 .team .container {
-  border: 1px solid black;
-  height: 732px;
+  min-height: 732px;
+  padding-top: 120px;
 }
 
 .team .container ul {
   display: flex;
   gap: 24px;
-  width: 264px;
+  width: calc((100% - 72px) / 4);
   height: 380px;
 }
 
@@ -195,7 +203,6 @@ h2 {
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
-  padding-top: 120px;
 }
 
 .team-list {
