@@ -1,5 +1,6 @@
 img {
   display: block;
+  width: 100%;
 }
 
 main {
@@ -197,7 +198,7 @@ h2 {
   margin-bottom: 8px;
 }
 
-.magic .container .visually-hidden {
+h2.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
