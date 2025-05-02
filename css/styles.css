@@ -197,7 +197,7 @@ h2 {
   margin-bottom: 8px;
 }
 
-.magic .visually-hidden {
+.magic .container .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
