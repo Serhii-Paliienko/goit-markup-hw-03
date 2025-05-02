@@ -42,7 +42,6 @@ ol {
   width: 1158px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0px 15px;
 }
 
 .page-header {
@@ -51,8 +50,7 @@ ol {
 
 .page-header .container {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 24px 15px 24px 15px;
   flex-wrap: nowrap;
 }
 
