@@ -74,12 +74,15 @@ nav {
   align-items: center;
 }
 
+.site-nav-main {
+  padding: 24px 0;
+}
+
 .site-nav {
   display: flex;
   align-items: center;
   gap: 40px;
   margin-right: 332px;
-  padding: 24px 0;
 }
 
 .nav {
@@ -224,6 +227,10 @@ h2 {
 .team .container ul {
   display: flex;
   gap: 24px;
+  width: calc((100% - 72px) / 4);
+}
+
+.team .container ul li {
   width: calc((100% - 72px) / 4);
 }
 
