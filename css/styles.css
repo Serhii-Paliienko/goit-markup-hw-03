@@ -79,6 +79,7 @@ nav {
   align-items: center;
   gap: 40px;
   margin-right: 332px;
+  padding: 24px 0;
 }
 
 .nav {
@@ -109,9 +110,11 @@ address {
   padding: 24px 0;
 }
 
-address a {
+.email-tel {
   color: #434455;
   letter-spacing: 0.02em;
+  text-decoration: none;
+  padding: 24px 0;
 }
 
 address a:hover {
@@ -120,10 +123,6 @@ address a:hover {
 
 address a:focus {
   color: #404bbf;
-}
-
-.email-tel {
-  text-decoration: none;
 }
 
 .solutions {
