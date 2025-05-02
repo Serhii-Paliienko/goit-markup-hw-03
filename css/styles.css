@@ -51,7 +51,6 @@ ol {
 .page-header .container {
   display: flex;
   padding: 0 15px;
-  flex-wrap: nowrap;
 }
 
 .logo {
@@ -102,6 +101,7 @@ nav {
 address {
   text-decoration: none;
   font-style: normal;
+  padding: 24px 0;
 }
 
 .contacts-list {
@@ -120,6 +120,10 @@ address a:hover {
 
 address a:focus {
   color: #404bbf;
+}
+
+.email-tel {
+  text-decoration: none;
 }
 
 .solutions {
@@ -181,6 +185,10 @@ h2 {
   padding: 120px 0;
 }
 
+.magic .container {
+  display: flex;
+}
+
 .magic .container ul {
   display: flex;
   gap: 24px;
@@ -195,14 +203,7 @@ h2 {
 }
 
 .feautures {
-  overflow: hidden;
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  border: 0;
-  clip: rect(0, 0, 0, 0);
+  display: none;
 }
 
 .feautures-title {
@@ -217,11 +218,7 @@ h2 {
 .team {
   background-color: #f4f4fd;
   text-align: center;
-}
-
-.team .container {
-  padding-bottom: 120px;
-  padding-top: 120px;
+  padding: 120px 0;
 }
 
 .team .container ul {
