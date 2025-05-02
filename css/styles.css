@@ -70,7 +70,7 @@ ol {
   color: #2e2f42;
 }
 
-.site-nav-main {
+nav {
   display: flex;
   align-items: center;
 }
