@@ -12,7 +12,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 0, 02em;
+  letter-spacing: 0.02em;
   background-color: #ffffff;
   color: #434455;
   margin: 0 auto;
@@ -36,6 +36,7 @@ ol {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
+  list-style-type: none;
 }
 
 .container {
@@ -206,8 +207,8 @@ h2 {
   padding: 0;
   border: 0;
   clip: rect(0, 0, 0, 0);
-  clip-path: inset(50%);
   overflow: hidden;
+  white-space: nowrap;
 }
 
 .features-title {
@@ -310,10 +311,6 @@ h2 {
 .product-field {
   letter-spacing: 0.02em;
   padding-left: 16px;
-}
-
-ul {
-  list-style-type: none;
 }
 
 footer {
