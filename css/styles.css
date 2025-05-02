@@ -327,8 +327,6 @@ footer {
 
 footer .studio {
   color: #f4f4fd;
-  display: inline-block;
-  margin-bottom: 16px;
 }
 
 .final-text {
@@ -337,7 +335,7 @@ footer .studio {
   height: 72px;
 }
 
-.footer .container .logo {
+footer .logo {
   display: inline-block;
   margin-bottom: 16px;
 }
