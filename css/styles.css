@@ -50,7 +50,7 @@ ol {
 
 .page-header .container {
   display: flex;
-  padding: 0 15px;
+  padding: 24px 0;
 }
 
 .logo {
@@ -72,10 +72,6 @@ ol {
 nav {
   display: flex;
   align-items: center;
-}
-
-.site-nav-main {
-  padding: 24px 0;
 }
 
 .site-nav {
