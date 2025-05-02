@@ -80,6 +80,7 @@ nav {
   align-items: center;
   gap: 40px;
   margin-right: 332px;
+  padding: 24px 0;
 }
 
 .nav {
@@ -106,7 +107,6 @@ address {
 .contacts-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 address a {
@@ -143,6 +143,8 @@ address a:focus {
 }
 
 .button {
+  display: block;
+  margin: 0 auto;
   color: #ffffff;
   background-color: #4d5ae5;
   font-weight: 500;
@@ -175,9 +177,8 @@ h2 {
   text-align: center;
 }
 
-.magic .container {
-  padding-top: 120px;
-  padding-bottom: 120px;
+.magic {
+  padding: 120px 0;
 }
 
 .magic .container ul {
@@ -194,7 +195,7 @@ h2 {
 }
 
 .feautures {
-  opacity: 0;
+  visibility: hidden;
 }
 
 .feautures-title {
