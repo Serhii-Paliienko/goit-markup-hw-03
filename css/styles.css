@@ -181,11 +181,8 @@ h1 {
   padding: 120px 0;
 }
 
-.features .container {
-  display: flex;
-}
-
 .visually-hidden {
+  display: inline-block;
   position: absolute;
   width: 1px;
   height: 1px;
