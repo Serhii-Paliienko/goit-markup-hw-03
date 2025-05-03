@@ -21,19 +21,6 @@ body {
   flex-direction: column;
 }
 
-h2.team-title,
-h2.portfolio-title {
-  font-weight: 700;
-  font-size: 36px;
-  text-align: center;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-  margin-bottom: 72px;
-  margin-top: 0;
-}
-
 h3 {
   font-weight: 500;
   font-size: 20px;
@@ -194,7 +181,7 @@ h1 {
   padding: 120px 0;
 }
 
-h2.visually-hidden {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -221,6 +208,18 @@ h2.visually-hidden {
   padding: 120px 0;
 }
 
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  margin-bottom: 72px;
+  margin-top: 0;
+}
+
 .team-list {
   display: flex;
   gap: 24px;
@@ -240,6 +239,18 @@ h2.visually-hidden {
 .projects {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  margin-bottom: 72px;
+  margin-top: 0;
 }
 
 .portfolio-list {
