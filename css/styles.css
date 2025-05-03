@@ -181,6 +181,10 @@ h1 {
   padding: 120px 0;
 }
 
+.features .container {
+  display: flex;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
