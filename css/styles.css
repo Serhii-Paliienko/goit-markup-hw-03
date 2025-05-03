@@ -29,7 +29,7 @@ h4 {
   margin-bottom: 0;
 }
 
-h2:not(.visually-hidden) {
+h2.visually-hidden {
   font-weight: 700;
   font-size: 36px;
   text-align: center;
